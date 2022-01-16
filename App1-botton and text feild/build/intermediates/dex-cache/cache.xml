@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\NEERU\AndroidStudioProjects\MyApplication2\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.4.0\jars\classes.jar"
+        jumboMode="false"
+        revision="30.0.3"
+        sha1="c2c594cace5d83a3227b2b6e658ecbfd586d3ed9">
+        <dex dex="C:\Users\NEERU\AndroidStudioProjects\MyApplication2\app\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-23.4.0_566729f9a00295445321aff0818a886b1d4939e8.jar" />
+    </item>
+    <item
+        jar="C:\Users\NEERU\AppData\Local\Android\Sdk\extras\android\m2repository\com\android\support\support-annotations\23.4.0\support-annotations-23.4.0.jar"
+        jumboMode="false"
+        revision="30.0.3"
+        sha1="ffbe55fdb2bb456b1485831706a9eac3300bb6b8">
+        <dex dex="C:\Users\NEERU\AndroidStudioProjects\MyApplication2\app\build\intermediates\pre-dexed\debug\support-annotations-23.4.0_24e72b3dfdd02cb9fe7d4a926e05a6fd2f0c28e9.jar" />
+    </item>
+    <item
+        jar="C:\Users\NEERU\AndroidStudioProjects\MyApplication2\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\jars\libs\internal_impl-23.4.0.jar"
+        jumboMode="false"
+        revision="30.0.3"
+        sha1="ea3c07504d2c8f4b13aa17c45c1b68ed9c1c3674">
+        <dex dex="C:\Users\NEERU\AndroidStudioProjects\MyApplication2\app\build\intermediates\pre-dexed\debug\internal_impl-23.4.0_8d9c16e014a53d1eb16c239a7baf03f6c3b9b09f.jar" />
+    </item>
+    <item
+        jar="C:\Users\NEERU\AndroidStudioProjects\MyApplication2\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\jars\classes.jar"
+        jumboMode="false"
+        revision="30.0.3"
+        sha1="67bd36ee9340ec7c254108936ad16b24bed160cc">
+        <dex dex="C:\Users\NEERU\AndroidStudioProjects\MyApplication2\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-23.4.0_ff64388da40a269c636a050679a602bcd87694d6.jar" />
+    </item>
+    <item
+        jar="C:\Users\NEERU\AndroidStudioProjects\MyApplication2\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.4.0\jars\classes.jar"
+        jumboMode="false"
+        revision="30.0.3"
+        sha1="548f06de403a9409f00554b3ee12a9fdea0e236c">
+        <dex dex="C:\Users\NEERU\AndroidStudioProjects\MyApplication2\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-23.4.0_407ee6c86f1c997200dd5112ba296a16b4e5ec04.jar" />
+    </item>
+    <item
+        jar="C:\Users\NEERU\AndroidStudioProjects\MyApplication2\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.4.0\jars\classes.jar"
+        jumboMode="false"
+        revision="30.0.3"
+        sha1="de4db3785756bfb0915a9f59a9b3f2fea7407be4">
+        <dex dex="C:\Users\NEERU\AndroidStudioProjects\MyApplication2\app\build\intermediates\pre-dexed\debug\com.android.support-animated-vector-drawable-23.4.0_aa5374a603062d1ac7ee70f7d6aa376a2d00a377.jar" />
+    </item>
+
+</items>
