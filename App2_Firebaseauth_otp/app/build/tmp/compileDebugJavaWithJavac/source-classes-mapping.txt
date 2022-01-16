@@ -1,0 +1,13 @@
+com/example/app2_firebaseauth_otp/BuildConfig.java
+ com.example.app2_firebaseauth_otp.BuildConfig
+com/example/app2_firebaseauth_otp/Welcome.java
+ com.example.app2_firebaseauth_otp.Welcome
+ com.example.app2_firebaseauth_otp.Welcome$1
+com/example/app2_firebaseauth_otp/Otp.java
+ com.example.app2_firebaseauth_otp.Otp
+ com.example.app2_firebaseauth_otp.Otp$1
+ com.example.app2_firebaseauth_otp.Otp$2
+ com.example.app2_firebaseauth_otp.Otp$3
+com/example/app2_firebaseauth_otp/Registration.java
+ com.example.app2_firebaseauth_otp.Registration
+ com.example.app2_firebaseauth_otp.Registration$1

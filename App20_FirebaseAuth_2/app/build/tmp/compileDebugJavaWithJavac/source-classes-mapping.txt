@@ -1,0 +1,13 @@
+com/example/app20_firebaseauth_2/Login.java
+ com.example.app20_firebaseauth_2.Login
+ com.example.app20_firebaseauth_2.Login$1
+ com.example.app20_firebaseauth_2.Login$2
+com/example/app20_firebaseauth_2/BuildConfig.java
+ com.example.app20_firebaseauth_2.BuildConfig
+com/example/app20_firebaseauth_2/Welcome.java
+ com.example.app20_firebaseauth_2.Welcome
+ com.example.app20_firebaseauth_2.Welcome$1
+com/example/app20_firebaseauth_2/Registration.java
+ com.example.app20_firebaseauth_2.Registration
+ com.example.app20_firebaseauth_2.Registration$1
+ com.example.app20_firebaseauth_2.Registration$2

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.neeru.app8_combined1_7"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="23"
+        android:targetSdkVersion="23" />
+
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+
+    <application
+        android:name="com.android.tools.fd.runtime.BootstrapApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+        <activity android:name="com.example.neeru.app8_combined1_7.MainActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.neeru.app8_combined1_7.Second" />
+        <activity android:name="com.example.neeru.app8_combined1_7.Third" />
+        <activity android:name="com.example.neeru.app8_combined1_7.Fourth" />
+        <activity android:name="com.example.neeru.app8_combined1_7.Fifth" />
+        <activity android:name="com.example.neeru.app8_combined1_7.Sixth" />
+        <activity android:name="com.example.neeru.app8_combined1_7.First" >
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,234 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.firebase"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+8-->C:\Users\NEERU\AndroidStudioProjects\Firebase\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->C:\Users\NEERU\AndroidStudioProjects\Firebase\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\NEERU\AndroidStudioProjects\Firebase\app\src\main\AndroidManifest.xml:4:5-66
+11-->C:\Users\NEERU\AndroidStudioProjects\Firebase\app\src\main\AndroidManifest.xml:4:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\NEERU\.gradle\caches\transforms-2\files-2.1\a0476a2be8d14e3ad542ecca6723be5f\firebase-auth-21.0.1\AndroidManifest.xml:24:5-79
+12-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\NEERU\.gradle\caches\transforms-2\files-2.1\a0476a2be8d14e3ad542ecca6723be5f\firebase-auth-21.0.1\AndroidManifest.xml:24:22-76
+13    <uses-permission android:name="android.permission.WAKE_LOCK" />
+13-->[com.google.android.gms:play-services-measurement-api:19.0.0] C:\Users\NEERU\.gradle\caches\transforms-2\files-2.1\693a3366ee531a6a1802b2ca4b396e3f\play-services-measurement-api-19.0.0\AndroidManifest.xml:24:5-68
+13-->[com.google.android.gms:play-services-measurement-api:19.0.0] C:\Users\NEERU\.gradle\caches\transforms-2\files-2.1\693a3366ee531a6a1802b2ca4b396e3f\play-services-measurement-api-19.0.0\AndroidManifest.xml:24:22-65
+14    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+14-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\NEERU\.gradle\caches\transforms-2\files-2.1\e2f8e045e2bfa31a157ea23b9c213426\play-services-measurement-19.0.0\AndroidManifest.xml:26:5-110
+14-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\NEERU\.gradle\caches\transforms-2\files-2.1\e2f8e045e2bfa31a157ea23b9c213426\play-services-measurement-19.0.0\AndroidManifest.xml:26:22-107
+15
+16    <application
+16-->C:\Users\NEERU\AndroidStudioProjects\Firebase\app\src\main\AndroidManifest.xml:6:5-20:19
+17        android:allowBackup="true"
+17-->C:\Users\NEERU\AndroidStudioProjects\Firebase\app\src\main\AndroidManifest.xml:7:9-35
+18        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+18-->[androidx.core:core:1.5.0] C:\Users\NEERU\.gradle\caches\transforms-2\files-2.1\de4504a44ff1c2eebbafc7766d076565\core-1.5.0\AndroidManifest.xml:24:18-86
+19        android:debuggable="true"
+20        android:icon="@mipmap/ic_launcher"
+20-->C:\Users\NEERU\AndroidStudioProjects\Firebase\app\src\main\AndroidManifest.xml:8:9-43
+21        android:label="@string/app_name"
+21-->C:\Users\NEERU\AndroidStudioProjects\Firebase\app\src\main\AndroidManifest.xml:9:9-41
+22        android:roundIcon="@mipmap/ic_launcher_round"
+22-->C:\Users\NEERU\AndroidStudioProjects\Firebase\app\src\main\AndroidManifest.xml:10:9-54
+23        android:supportsRtl="true"
+23-->C:\Users\NEERU\AndroidStudioProjects\Firebase\app\src\main\AndroidManifest.xml:11:9-35
+24        android:theme="@style/Theme.Firebase" >
+24-->C:\Users\NEERU\AndroidStudioProjects\Firebase\app\src\main\AndroidManifest.xml:12:9-46
+25        <activity android:name="com.example.firebase.MainActivity" >
+25-->C:\Users\NEERU\AndroidStudioProjects\Firebase\app\src\main\AndroidManifest.xml:13:9-19:20
+25-->C:\Users\NEERU\AndroidStudioProjects\Firebase\app\src\main\AndroidManifest.xml:13:19-47
+26            <intent-filter>
+26-->C:\Users\NEERU\AndroidStudioProjects\Firebase\app\src\main\AndroidManifest.xml:14:13-18:29
+27                <action android:name="android.intent.action.MAIN" />
+27-->C:\Users\NEERU\AndroidStudioProjects\Firebase\app\src\main\AndroidManifest.xml:15:17-69
+27-->C:\Users\NEERU\AndroidStudioProjects\Firebase\app\src\main\AndroidManifest.xml:15:25-66
+28
+29                <category android:name="android.intent.category.LAUNCHER" />
+29-->C:\Users\NEERU\AndroidStudioProjects\Firebase\app\src\main\AndroidManifest.xml:17:17-77
+29-->C:\Users\NEERU\AndroidStudioProjects\Firebase\app\src\main\AndroidManifest.xml:17:27-74
+30            </intent-filter>
+31        </activity>
+32        <activity
+32-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\NEERU\.gradle\caches\transforms-2\files-2.1\a0476a2be8d14e3ad542ecca6723be5f\firebase-auth-21.0.1\AndroidManifest.xml:27:9-44:20
+33            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+33-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\NEERU\.gradle\caches\transforms-2\files-2.1\a0476a2be8d14e3ad542ecca6723be5f\firebase-auth-21.0.1\AndroidManifest.xml:28:13-80
+34            android:excludeFromRecents="true"
+34-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\NEERU\.gradle\caches\transforms-2\files-2.1\a0476a2be8d14e3ad542ecca6723be5f\firebase-auth-21.0.1\AndroidManifest.xml:29:13-46
+35            android:exported="true"
+35-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\NEERU\.gradle\caches\transforms-2\files-2.1\a0476a2be8d14e3ad542ecca6723be5f\firebase-auth-21.0.1\AndroidManifest.xml:30:13-36
+36            android:launchMode="singleTask"
+36-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\NEERU\.gradle\caches\transforms-2\files-2.1\a0476a2be8d14e3ad542ecca6723be5f\firebase-auth-21.0.1\AndroidManifest.xml:31:13-44
+37            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+37-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\NEERU\.gradle\caches\transforms-2\files-2.1\a0476a2be8d14e3ad542ecca6723be5f\firebase-auth-21.0.1\AndroidManifest.xml:32:13-72
+38            <intent-filter>
+38-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\NEERU\.gradle\caches\transforms-2\files-2.1\a0476a2be8d14e3ad542ecca6723be5f\firebase-auth-21.0.1\AndroidManifest.xml:33:13-43:29
+39                <action android:name="android.intent.action.VIEW" />
+39-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\NEERU\.gradle\caches\transforms-2\files-2.1\a0476a2be8d14e3ad542ecca6723be5f\firebase-auth-21.0.1\AndroidManifest.xml:34:17-69
+39-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\NEERU\.gradle\caches\transforms-2\files-2.1\a0476a2be8d14e3ad542ecca6723be5f\firebase-auth-21.0.1\AndroidManifest.xml:34:25-66
+40
+41                <category android:name="android.intent.category.DEFAULT" />
+41-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\NEERU\.gradle\caches\transforms-2\files-2.1\a0476a2be8d14e3ad542ecca6723be5f\firebase-auth-21.0.1\AndroidManifest.xml:36:17-76
+41-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\NEERU\.gradle\caches\transforms-2\files-2.1\a0476a2be8d14e3ad542ecca6723be5f\firebase-auth-21.0.1\AndroidManifest.xml:36:27-73
+42                <category android:name="android.intent.category.BROWSABLE" />
+42-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\NEERU\.gradle\caches\transforms-2\files-2.1\a0476a2be8d14e3ad542ecca6723be5f\firebase-auth-21.0.1\AndroidManifest.xml:37:17-78
+42-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\NEERU\.gradle\caches\transforms-2\files-2.1\a0476a2be8d14e3ad542ecca6723be5f\firebase-auth-21.0.1\AndroidManifest.xml:37:27-75
+43
+44                <data
+44-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\NEERU\.gradle\caches\transforms-2\files-2.1\a0476a2be8d14e3ad542ecca6723be5f\firebase-auth-21.0.1\AndroidManifest.xml:39:17-42:51
+45                    android:host="firebase.auth"
+45-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\NEERU\.gradle\caches\transforms-2\files-2.1\a0476a2be8d14e3ad542ecca6723be5f\firebase-auth-21.0.1\AndroidManifest.xml:40:21-49
+46                    android:path="/"
+46-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\NEERU\.gradle\caches\transforms-2\files-2.1\a0476a2be8d14e3ad542ecca6723be5f\firebase-auth-21.0.1\AndroidManifest.xml:41:21-37
+47                    android:scheme="genericidp" />
+47-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\NEERU\.gradle\caches\transforms-2\files-2.1\a0476a2be8d14e3ad542ecca6723be5f\firebase-auth-21.0.1\AndroidManifest.xml:42:21-48
+48            </intent-filter>
+49        </activity>
+50        <activity
+50-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\NEERU\.gradle\caches\transforms-2\files-2.1\a0476a2be8d14e3ad542ecca6723be5f\firebase-auth-21.0.1\AndroidManifest.xml:45:9-62:20
+51            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+51-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\NEERU\.gradle\caches\transforms-2\files-2.1\a0476a2be8d14e3ad542ecca6723be5f\firebase-auth-21.0.1\AndroidManifest.xml:46:13-79
+52            android:excludeFromRecents="true"
+52-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\NEERU\.gradle\caches\transforms-2\files-2.1\a0476a2be8d14e3ad542ecca6723be5f\firebase-auth-21.0.1\AndroidManifest.xml:47:13-46
+53            android:exported="true"
+53-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\NEERU\.gradle\caches\transforms-2\files-2.1\a0476a2be8d14e3ad542ecca6723be5f\firebase-auth-21.0.1\AndroidManifest.xml:48:13-36
+54            android:launchMode="singleTask"
+54-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\NEERU\.gradle\caches\transforms-2\files-2.1\a0476a2be8d14e3ad542ecca6723be5f\firebase-auth-21.0.1\AndroidManifest.xml:49:13-44
+55            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+55-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\NEERU\.gradle\caches\transforms-2\files-2.1\a0476a2be8d14e3ad542ecca6723be5f\firebase-auth-21.0.1\AndroidManifest.xml:50:13-72
+56            <intent-filter>
+56-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\NEERU\.gradle\caches\transforms-2\files-2.1\a0476a2be8d14e3ad542ecca6723be5f\firebase-auth-21.0.1\AndroidManifest.xml:51:13-61:29
+57                <action android:name="android.intent.action.VIEW" />
+57-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\NEERU\.gradle\caches\transforms-2\files-2.1\a0476a2be8d14e3ad542ecca6723be5f\firebase-auth-21.0.1\AndroidManifest.xml:34:17-69
+57-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\NEERU\.gradle\caches\transforms-2\files-2.1\a0476a2be8d14e3ad542ecca6723be5f\firebase-auth-21.0.1\AndroidManifest.xml:34:25-66
+58
+59                <category android:name="android.intent.category.DEFAULT" />
+59-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\NEERU\.gradle\caches\transforms-2\files-2.1\a0476a2be8d14e3ad542ecca6723be5f\firebase-auth-21.0.1\AndroidManifest.xml:36:17-76
+59-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\NEERU\.gradle\caches\transforms-2\files-2.1\a0476a2be8d14e3ad542ecca6723be5f\firebase-auth-21.0.1\AndroidManifest.xml:36:27-73
+60                <category android:name="android.intent.category.BROWSABLE" />
+60-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\NEERU\.gradle\caches\transforms-2\files-2.1\a0476a2be8d14e3ad542ecca6723be5f\firebase-auth-21.0.1\AndroidManifest.xml:37:17-78
+60-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\NEERU\.gradle\caches\transforms-2\files-2.1\a0476a2be8d14e3ad542ecca6723be5f\firebase-auth-21.0.1\AndroidManifest.xml:37:27-75
+61
+62                <data
+62-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\NEERU\.gradle\caches\transforms-2\files-2.1\a0476a2be8d14e3ad542ecca6723be5f\firebase-auth-21.0.1\AndroidManifest.xml:39:17-42:51
+63                    android:host="firebase.auth"
+63-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\NEERU\.gradle\caches\transforms-2\files-2.1\a0476a2be8d14e3ad542ecca6723be5f\firebase-auth-21.0.1\AndroidManifest.xml:40:21-49
+64                    android:path="/"
+64-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\NEERU\.gradle\caches\transforms-2\files-2.1\a0476a2be8d14e3ad542ecca6723be5f\firebase-auth-21.0.1\AndroidManifest.xml:41:21-37
+65                    android:scheme="recaptcha" />
+65-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\NEERU\.gradle\caches\transforms-2\files-2.1\a0476a2be8d14e3ad542ecca6723be5f\firebase-auth-21.0.1\AndroidManifest.xml:42:21-48
+66            </intent-filter>
+67        </activity>
+68
+69        <service
+69-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\NEERU\.gradle\caches\transforms-2\files-2.1\a0476a2be8d14e3ad542ecca6723be5f\firebase-auth-21.0.1\AndroidManifest.xml:64:9-73:19
+70            android:name="com.google.firebase.auth.api.fallback.service.FirebaseAuthFallbackService"
+70-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\NEERU\.gradle\caches\transforms-2\files-2.1\a0476a2be8d14e3ad542ecca6723be5f\firebase-auth-21.0.1\AndroidManifest.xml:65:13-101
+71            android:enabled="true"
+71-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\NEERU\.gradle\caches\transforms-2\files-2.1\a0476a2be8d14e3ad542ecca6723be5f\firebase-auth-21.0.1\AndroidManifest.xml:66:13-35
+72            android:exported="false" >
+72-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\NEERU\.gradle\caches\transforms-2\files-2.1\a0476a2be8d14e3ad542ecca6723be5f\firebase-auth-21.0.1\AndroidManifest.xml:67:13-37
+73            <intent-filter>
+73-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\NEERU\.gradle\caches\transforms-2\files-2.1\a0476a2be8d14e3ad542ecca6723be5f\firebase-auth-21.0.1\AndroidManifest.xml:68:13-72:29
+74                <action android:name="com.google.firebase.auth.api.gms.service.START" />
+74-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\NEERU\.gradle\caches\transforms-2\files-2.1\a0476a2be8d14e3ad542ecca6723be5f\firebase-auth-21.0.1\AndroidManifest.xml:69:17-89
+74-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\NEERU\.gradle\caches\transforms-2\files-2.1\a0476a2be8d14e3ad542ecca6723be5f\firebase-auth-21.0.1\AndroidManifest.xml:69:25-86
+75
+76                <category android:name="android.intent.category.DEFAULT" />
+76-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\NEERU\.gradle\caches\transforms-2\files-2.1\a0476a2be8d14e3ad542ecca6723be5f\firebase-auth-21.0.1\AndroidManifest.xml:36:17-76
+76-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\NEERU\.gradle\caches\transforms-2\files-2.1\a0476a2be8d14e3ad542ecca6723be5f\firebase-auth-21.0.1\AndroidManifest.xml:36:27-73
+77            </intent-filter>
+78        </service>
+79        <service
+79-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\NEERU\.gradle\caches\transforms-2\files-2.1\a0476a2be8d14e3ad542ecca6723be5f\firebase-auth-21.0.1\AndroidManifest.xml:74:9-80:19
+80            android:name="com.google.firebase.components.ComponentDiscoveryService"
+80-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\NEERU\.gradle\caches\transforms-2\files-2.1\a0476a2be8d14e3ad542ecca6723be5f\firebase-auth-21.0.1\AndroidManifest.xml:75:13-84
+81            android:directBootAware="true"
+81-->[com.google.firebase:firebase-common:20.0.0] C:\Users\NEERU\.gradle\caches\transforms-2\files-2.1\ef8b0316f80304d8bf2f413ed9f71732\firebase-common-20.0.0\AndroidManifest.xml:35:13-43
+82            android:exported="false" >
+82-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\NEERU\.gradle\caches\transforms-2\files-2.1\a0476a2be8d14e3ad542ecca6723be5f\firebase-auth-21.0.1\AndroidManifest.xml:76:13-37
+83            <meta-data
+83-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\NEERU\.gradle\caches\transforms-2\files-2.1\a0476a2be8d14e3ad542ecca6723be5f\firebase-auth-21.0.1\AndroidManifest.xml:77:13-79:85
+84                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+84-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\NEERU\.gradle\caches\transforms-2\files-2.1\a0476a2be8d14e3ad542ecca6723be5f\firebase-auth-21.0.1\AndroidManifest.xml:78:17-109
+85                android:value="com.google.firebase.components.ComponentRegistrar" />
+85-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\NEERU\.gradle\caches\transforms-2\files-2.1\a0476a2be8d14e3ad542ecca6723be5f\firebase-auth-21.0.1\AndroidManifest.xml:79:17-82
+86            <meta-data
+86-->[com.google.android.gms:play-services-measurement-api:19.0.0] C:\Users\NEERU\.gradle\caches\transforms-2\files-2.1\693a3366ee531a6a1802b2ca4b396e3f\play-services-measurement-api-19.0.0\AndroidManifest.xml:30:13-32:85
+87                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+87-->[com.google.android.gms:play-services-measurement-api:19.0.0] C:\Users\NEERU\.gradle\caches\transforms-2\files-2.1\693a3366ee531a6a1802b2ca4b396e3f\play-services-measurement-api-19.0.0\AndroidManifest.xml:31:17-139
+88                android:value="com.google.firebase.components.ComponentRegistrar" />
+88-->[com.google.android.gms:play-services-measurement-api:19.0.0] C:\Users\NEERU\.gradle\caches\transforms-2\files-2.1\693a3366ee531a6a1802b2ca4b396e3f\play-services-measurement-api-19.0.0\AndroidManifest.xml:32:17-82
+89            <meta-data
+89-->[com.google.firebase:firebase-installations:17.0.0] C:\Users\NEERU\.gradle\caches\transforms-2\files-2.1\1251f431fa1cdcc135e150ea6d84a29a\firebase-installations-17.0.0\AndroidManifest.xml:18:13-20:85
+90                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+90-->[com.google.firebase:firebase-installations:17.0.0] C:\Users\NEERU\.gradle\caches\transforms-2\files-2.1\1251f431fa1cdcc135e150ea6d84a29a\firebase-installations-17.0.0\AndroidManifest.xml:19:17-127
+91                android:value="com.google.firebase.components.ComponentRegistrar" />
+91-->[com.google.firebase:firebase-installations:17.0.0] C:\Users\NEERU\.gradle\caches\transforms-2\files-2.1\1251f431fa1cdcc135e150ea6d84a29a\firebase-installations-17.0.0\AndroidManifest.xml:20:17-82
+92        </service>
+93
+94        <provider
+94-->[com.google.firebase:firebase-common:20.0.0] C:\Users\NEERU\.gradle\caches\transforms-2\files-2.1\ef8b0316f80304d8bf2f413ed9f71732\firebase-common-20.0.0\AndroidManifest.xml:26:9-31:39
+95            android:name="com.google.firebase.provider.FirebaseInitProvider"
+95-->[com.google.firebase:firebase-common:20.0.0] C:\Users\NEERU\.gradle\caches\transforms-2\files-2.1\ef8b0316f80304d8bf2f413ed9f71732\firebase-common-20.0.0\AndroidManifest.xml:27:13-77
+96            android:authorities="com.example.firebase.firebaseinitprovider"
+96-->[com.google.firebase:firebase-common:20.0.0] C:\Users\NEERU\.gradle\caches\transforms-2\files-2.1\ef8b0316f80304d8bf2f413ed9f71732\firebase-common-20.0.0\AndroidManifest.xml:28:13-72
+97            android:directBootAware="true"
+97-->[com.google.firebase:firebase-common:20.0.0] C:\Users\NEERU\.gradle\caches\transforms-2\files-2.1\ef8b0316f80304d8bf2f413ed9f71732\firebase-common-20.0.0\AndroidManifest.xml:29:13-43
+98            android:exported="false"
+98-->[com.google.firebase:firebase-common:20.0.0] C:\Users\NEERU\.gradle\caches\transforms-2\files-2.1\ef8b0316f80304d8bf2f413ed9f71732\firebase-common-20.0.0\AndroidManifest.xml:30:13-37
+99            android:initOrder="100" />
+99-->[com.google.firebase:firebase-common:20.0.0] C:\Users\NEERU\.gradle\caches\transforms-2\files-2.1\ef8b0316f80304d8bf2f413ed9f71732\firebase-common-20.0.0\AndroidManifest.xml:31:13-36
+100
+101        <activity
+101-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\NEERU\.gradle\caches\transforms-2\files-2.1\c0cfd82fc458a9c05f4fac47e9b112d0\play-services-base-17.1.0\AndroidManifest.xml:23:9-26:75
+102            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+102-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\NEERU\.gradle\caches\transforms-2\files-2.1\c0cfd82fc458a9c05f4fac47e9b112d0\play-services-base-17.1.0\AndroidManifest.xml:24:13-79
+103            android:exported="false"
+103-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\NEERU\.gradle\caches\transforms-2\files-2.1\c0cfd82fc458a9c05f4fac47e9b112d0\play-services-base-17.1.0\AndroidManifest.xml:25:13-37
+104            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+104-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\NEERU\.gradle\caches\transforms-2\files-2.1\c0cfd82fc458a9c05f4fac47e9b112d0\play-services-base-17.1.0\AndroidManifest.xml:26:13-72
+105
+106        <receiver
+106-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\NEERU\.gradle\caches\transforms-2\files-2.1\e2f8e045e2bfa31a157ea23b9c213426\play-services-measurement-19.0.0\AndroidManifest.xml:29:9-33:20
+107            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+107-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\NEERU\.gradle\caches\transforms-2\files-2.1\e2f8e045e2bfa31a157ea23b9c213426\play-services-measurement-19.0.0\AndroidManifest.xml:30:13-85
+108            android:enabled="true"
+108-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\NEERU\.gradle\caches\transforms-2\files-2.1\e2f8e045e2bfa31a157ea23b9c213426\play-services-measurement-19.0.0\AndroidManifest.xml:31:13-35
+109            android:exported="false" >
+109-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\NEERU\.gradle\caches\transforms-2\files-2.1\e2f8e045e2bfa31a157ea23b9c213426\play-services-measurement-19.0.0\AndroidManifest.xml:32:13-37
+110        </receiver>
+111
+112        <service
+112-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\NEERU\.gradle\caches\transforms-2\files-2.1\e2f8e045e2bfa31a157ea23b9c213426\play-services-measurement-19.0.0\AndroidManifest.xml:35:9-38:40
+113            android:name="com.google.android.gms.measurement.AppMeasurementService"
+113-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\NEERU\.gradle\caches\transforms-2\files-2.1\e2f8e045e2bfa31a157ea23b9c213426\play-services-measurement-19.0.0\AndroidManifest.xml:36:13-84
+114            android:enabled="true"
+114-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\NEERU\.gradle\caches\transforms-2\files-2.1\e2f8e045e2bfa31a157ea23b9c213426\play-services-measurement-19.0.0\AndroidManifest.xml:37:13-35
+115            android:exported="false" />
+115-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\NEERU\.gradle\caches\transforms-2\files-2.1\e2f8e045e2bfa31a157ea23b9c213426\play-services-measurement-19.0.0\AndroidManifest.xml:38:13-37
+116        <service
+116-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\NEERU\.gradle\caches\transforms-2\files-2.1\e2f8e045e2bfa31a157ea23b9c213426\play-services-measurement-19.0.0\AndroidManifest.xml:39:9-43:72
+117            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+117-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\NEERU\.gradle\caches\transforms-2\files-2.1\e2f8e045e2bfa31a157ea23b9c213426\play-services-measurement-19.0.0\AndroidManifest.xml:40:13-87
+118            android:enabled="true"
+118-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\NEERU\.gradle\caches\transforms-2\files-2.1\e2f8e045e2bfa31a157ea23b9c213426\play-services-measurement-19.0.0\AndroidManifest.xml:41:13-35
+119            android:exported="false"
+119-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\NEERU\.gradle\caches\transforms-2\files-2.1\e2f8e045e2bfa31a157ea23b9c213426\play-services-measurement-19.0.0\AndroidManifest.xml:42:13-37
+120            android:permission="android.permission.BIND_JOB_SERVICE" />
+120-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\NEERU\.gradle\caches\transforms-2\files-2.1\e2f8e045e2bfa31a157ea23b9c213426\play-services-measurement-19.0.0\AndroidManifest.xml:43:13-69
+121
+122        <meta-data
+122-->[com.google.android.gms:play-services-basement:17.1.0] C:\Users\NEERU\.gradle\caches\transforms-2\files-2.1\5ee78b76ca16c5cf553e6db656f90584\play-services-basement-17.1.0\AndroidManifest.xml:23:9-25:69
+123            android:name="com.google.android.gms.version"
+123-->[com.google.android.gms:play-services-basement:17.1.0] C:\Users\NEERU\.gradle\caches\transforms-2\files-2.1\5ee78b76ca16c5cf553e6db656f90584\play-services-basement-17.1.0\AndroidManifest.xml:24:13-58
+124            android:value="@integer/google_play_services_version" />
+124-->[com.google.android.gms:play-services-basement:17.1.0] C:\Users\NEERU\.gradle\caches\transforms-2\files-2.1\5ee78b76ca16c5cf553e6db656f90584\play-services-basement-17.1.0\AndroidManifest.xml:25:13-66
+125    </application>
+126
+127</manifest>

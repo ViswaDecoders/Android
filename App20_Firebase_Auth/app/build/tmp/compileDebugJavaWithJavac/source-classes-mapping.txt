@@ -1,0 +1,6 @@
+com/example/firebase/MainActivity.java
+ com.example.firebase.MainActivity
+ com.example.firebase.MainActivity$1
+ com.example.firebase.MainActivity$1$1
+com/example/firebase/BuildConfig.java
+ com.example.firebase.BuildConfig

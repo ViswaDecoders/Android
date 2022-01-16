@@ -1,0 +1,4 @@
+com/example/app18_videoplayer/BuildConfig.java
+ com.example.app18_videoplayer.BuildConfig
+com/example/app18_videoplayer/MainActivity.java
+ com.example.app18_videoplayer.MainActivity

@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "C:\\Users\\NEERU\\AndroidStudioProjects\\Mediaplayer2.0\\app\\build\\intermediates\\res\\merged\\debug\\raw\\iphone.mp3",
+        "source": "C:\\Users\\NEERU\\AndroidStudioProjects\\Mediaplayer2.0\\app\\src\\main\\res\\raw\\iphone.mp3"
+    },
+    {
+        "merged": "C:\\Users\\NEERU\\AndroidStudioProjects\\Mediaplayer2.0\\app\\build\\intermediates\\res\\merged\\debug\\raw\\baby.mp3",
+        "source": "C:\\Users\\NEERU\\AndroidStudioProjects\\Mediaplayer2.0\\app\\src\\main\\res\\raw\\baby.mp3"
+    },
+    {
+        "merged": "C:\\Users\\NEERU\\AndroidStudioProjects\\Mediaplayer2.0\\app\\build\\intermediates\\res\\merged\\debug\\raw\\bigbang.mp3",
+        "source": "C:\\Users\\NEERU\\AndroidStudioProjects\\Mediaplayer2.0\\app\\src\\main\\res\\raw\\bigbang.mp3"
+    }
+]

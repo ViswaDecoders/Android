@@ -1,0 +1,111 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.androidproject"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="23"
+8-->C:\Users\NEERU\AndroidStudioProjects\AndroidProject\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->C:\Users\NEERU\AndroidStudioProjects\AndroidProject\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" />
+11-->C:\Users\NEERU\AndroidStudioProjects\AndroidProject\app\src\main\AndroidManifest.xml:5:5-76
+11-->C:\Users\NEERU\AndroidStudioProjects\AndroidProject\app\src\main\AndroidManifest.xml:5:22-73
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->C:\Users\NEERU\AndroidStudioProjects\AndroidProject\app\src\main\AndroidManifest.xml:6:5-67
+12-->C:\Users\NEERU\AndroidStudioProjects\AndroidProject\app\src\main\AndroidManifest.xml:6:22-64
+13    <uses-permission android:name="android.permission.CAMERA" />
+13-->C:\Users\NEERU\AndroidStudioProjects\AndroidProject\app\src\main\AndroidManifest.xml:7:5-65
+13-->C:\Users\NEERU\AndroidStudioProjects\AndroidProject\app\src\main\AndroidManifest.xml:7:22-62
+14    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+14-->C:\Users\NEERU\AndroidStudioProjects\AndroidProject\app\src\main\AndroidManifest.xml:8:5-76
+14-->C:\Users\NEERU\AndroidStudioProjects\AndroidProject\app\src\main\AndroidManifest.xml:8:22-73
+15    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+15-->C:\Users\NEERU\AndroidStudioProjects\AndroidProject\app\src\main\AndroidManifest.xml:9:5-76
+15-->C:\Users\NEERU\AndroidStudioProjects\AndroidProject\app\src\main\AndroidManifest.xml:9:22-73
+16    <uses-permission android:name="android.permission.BLUETOOTH" />
+16-->C:\Users\NEERU\AndroidStudioProjects\AndroidProject\app\src\main\AndroidManifest.xml:10:5-68
+16-->C:\Users\NEERU\AndroidStudioProjects\AndroidProject\app\src\main\AndroidManifest.xml:10:22-65
+17    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+17-->C:\Users\NEERU\AndroidStudioProjects\AndroidProject\app\src\main\AndroidManifest.xml:11:5-74
+17-->C:\Users\NEERU\AndroidStudioProjects\AndroidProject\app\src\main\AndroidManifest.xml:11:22-71
+18    <uses-permission android:name="android.permission.BODY_SENSORS" />
+18-->C:\Users\NEERU\AndroidStudioProjects\AndroidProject\app\src\main\AndroidManifest.xml:12:5-71
+18-->C:\Users\NEERU\AndroidStudioProjects\AndroidProject\app\src\main\AndroidManifest.xml:12:22-68
+19
+20    <application
+20-->C:\Users\NEERU\AndroidStudioProjects\AndroidProject\app\src\main\AndroidManifest.xml:14:5-41:19
+21        android:allowBackup="true"
+21-->C:\Users\NEERU\AndroidStudioProjects\AndroidProject\app\src\main\AndroidManifest.xml:15:9-35
+22        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+22-->[androidx.core:core:1.5.0] C:\Users\NEERU\.gradle\caches\transforms-2\files-2.1\cc5e9dcdc56dc39042f72c501235e83f\core-1.5.0\AndroidManifest.xml:24:18-86
+23        android:debuggable="true"
+24        android:extractNativeLibs="false"
+25        android:icon="@mipmap/ic_launcher"
+25-->C:\Users\NEERU\AndroidStudioProjects\AndroidProject\app\src\main\AndroidManifest.xml:16:9-43
+26        android:label="@string/app_name"
+26-->C:\Users\NEERU\AndroidStudioProjects\AndroidProject\app\src\main\AndroidManifest.xml:17:9-41
+27        android:roundIcon="@mipmap/ic_launcher_round"
+27-->C:\Users\NEERU\AndroidStudioProjects\AndroidProject\app\src\main\AndroidManifest.xml:18:9-54
+28        android:supportsRtl="true"
+28-->C:\Users\NEERU\AndroidStudioProjects\AndroidProject\app\src\main\AndroidManifest.xml:19:9-35
+29        android:theme="@style/Theme.AndroidProject" >
+29-->C:\Users\NEERU\AndroidStudioProjects\AndroidProject\app\src\main\AndroidManifest.xml:20:9-52
+30        <activity android:name="com.example.androidproject.Quiz1" />
+30-->C:\Users\NEERU\AndroidStudioProjects\AndroidProject\app\src\main\AndroidManifest.xml:21:9-52
+30-->C:\Users\NEERU\AndroidStudioProjects\AndroidProject\app\src\main\AndroidManifest.xml:21:19-40
+31        <activity android:name="com.example.androidproject.ombSensor" />
+31-->C:\Users\NEERU\AndroidStudioProjects\AndroidProject\app\src\main\AndroidManifest.xml:22:9-47
+31-->C:\Users\NEERU\AndroidStudioProjects\AndroidProject\app\src\main\AndroidManifest.xml:22:19-44
+32        <activity android:name="com.example.androidproject.Sensors" />
+32-->C:\Users\NEERU\AndroidStudioProjects\AndroidProject\app\src\main\AndroidManifest.xml:23:9-45
+32-->C:\Users\NEERU\AndroidStudioProjects\AndroidProject\app\src\main\AndroidManifest.xml:23:19-42
+33        <activity android:name="com.example.androidproject.Sensor" />
+33-->C:\Users\NEERU\AndroidStudioProjects\AndroidProject\app\src\main\AndroidManifest.xml:24:9-44
+33-->C:\Users\NEERU\AndroidStudioProjects\AndroidProject\app\src\main\AndroidManifest.xml:24:19-41
+34        <activity android:name="com.example.androidproject.Bluetooth" />
+34-->C:\Users\NEERU\AndroidStudioProjects\AndroidProject\app\src\main\AndroidManifest.xml:25:9-47
+34-->C:\Users\NEERU\AndroidStudioProjects\AndroidProject\app\src\main\AndroidManifest.xml:25:19-44
+35        <activity android:name="com.example.androidproject.Wifi" />
+35-->C:\Users\NEERU\AndroidStudioProjects\AndroidProject\app\src\main\AndroidManifest.xml:26:9-42
+35-->C:\Users\NEERU\AndroidStudioProjects\AndroidProject\app\src\main\AndroidManifest.xml:26:19-39
+36        <activity android:name="com.example.androidproject.TextToSpeech" />
+36-->C:\Users\NEERU\AndroidStudioProjects\AndroidProject\app\src\main\AndroidManifest.xml:27:9-50
+36-->C:\Users\NEERU\AndroidStudioProjects\AndroidProject\app\src\main\AndroidManifest.xml:27:19-47
+37        <activity android:name="com.example.androidproject.Camera" />
+37-->C:\Users\NEERU\AndroidStudioProjects\AndroidProject\app\src\main\AndroidManifest.xml:28:9-44
+37-->C:\Users\NEERU\AndroidStudioProjects\AndroidProject\app\src\main\AndroidManifest.xml:28:19-41
+38        <activity android:name="com.example.androidproject.Calculator" />
+38-->C:\Users\NEERU\AndroidStudioProjects\AndroidProject\app\src\main\AndroidManifest.xml:29:9-48
+38-->C:\Users\NEERU\AndroidStudioProjects\AndroidProject\app\src\main\AndroidManifest.xml:29:19-45
+39        <activity android:name="com.example.androidproject.MediaPlayer" />
+39-->C:\Users\NEERU\AndroidStudioProjects\AndroidProject\app\src\main\AndroidManifest.xml:30:9-49
+39-->C:\Users\NEERU\AndroidStudioProjects\AndroidProject\app\src\main\AndroidManifest.xml:30:19-46
+40        <activity android:name="com.example.androidproject.Combined" />
+40-->C:\Users\NEERU\AndroidStudioProjects\AndroidProject\app\src\main\AndroidManifest.xml:31:9-46
+40-->C:\Users\NEERU\AndroidStudioProjects\AndroidProject\app\src\main\AndroidManifest.xml:31:19-43
+41        <activity android:name="com.example.androidproject.Welcome" />
+41-->C:\Users\NEERU\AndroidStudioProjects\AndroidProject\app\src\main\AndroidManifest.xml:32:9-45
+41-->C:\Users\NEERU\AndroidStudioProjects\AndroidProject\app\src\main\AndroidManifest.xml:32:19-42
+42        <activity android:name="com.example.androidproject.Login" />
+42-->C:\Users\NEERU\AndroidStudioProjects\AndroidProject\app\src\main\AndroidManifest.xml:33:9-43
+42-->C:\Users\NEERU\AndroidStudioProjects\AndroidProject\app\src\main\AndroidManifest.xml:33:19-40
+43        <activity android:name="com.example.androidproject.MainActivity" >
+43-->C:\Users\NEERU\AndroidStudioProjects\AndroidProject\app\src\main\AndroidManifest.xml:34:9-40:20
+43-->C:\Users\NEERU\AndroidStudioProjects\AndroidProject\app\src\main\AndroidManifest.xml:34:19-47
+44            <intent-filter>
+44-->C:\Users\NEERU\AndroidStudioProjects\AndroidProject\app\src\main\AndroidManifest.xml:35:13-39:29
+45                <action android:name="android.intent.action.MAIN" />
+45-->C:\Users\NEERU\AndroidStudioProjects\AndroidProject\app\src\main\AndroidManifest.xml:36:17-69
+45-->C:\Users\NEERU\AndroidStudioProjects\AndroidProject\app\src\main\AndroidManifest.xml:36:25-66
+46
+47                <category android:name="android.intent.category.LAUNCHER" />
+47-->C:\Users\NEERU\AndroidStudioProjects\AndroidProject\app\src\main\AndroidManifest.xml:38:17-77
+47-->C:\Users\NEERU\AndroidStudioProjects\AndroidProject\app\src\main\AndroidManifest.xml:38:27-74
+48            </intent-filter>
+49        </activity>
+50    </application>
+51
+52</manifest>

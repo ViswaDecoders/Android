@@ -1,0 +1,8 @@
+com/example/app22_firebaseauth_gmail/Welcome.java
+ com.example.app22_firebaseauth_gmail.Welcome
+ com.example.app22_firebaseauth_gmail.Welcome$1
+com/example/app22_firebaseauth_gmail/BuildConfig.java
+ com.example.app22_firebaseauth_gmail.BuildConfig
+com/example/app22_firebaseauth_gmail/MainActivity.java
+ com.example.app22_firebaseauth_gmail.MainActivity
+ com.example.app22_firebaseauth_gmail.MainActivity$1

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/App19Smsandcallingservice.iml" filepath="$PROJECT_DIR$/App19Smsandcallingservice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/App_19_-_Sms_and_calling_service.iml" filepath="$PROJECT_DIR$/.idea/modules/App_19_-_Sms_and_calling_service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/App_19_-_Sms_and_calling_service.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/App_19_-_Sms_and_calling_service.app.iml" />
+    </modules>
+  </component>
+</project>
